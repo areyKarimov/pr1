@@ -1,0 +1,19 @@
+.best {
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 44px;
+        &+button {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
+
+.subtitle {
+    margin-bottom: 45px;
+}
+
+.menu__item-sub {
+    margin-bottom: 60px;
+}

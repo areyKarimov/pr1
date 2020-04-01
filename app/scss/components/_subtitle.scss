@@ -1,0 +1,31 @@
+.subtitle {
+    color: $subtitle;
+    &__title {
+        font-size: 60px;
+        line-height: 70px;
+        margin: 0 0 35px 0;
+    }
+    &__caption {
+        position: relative;
+        padding-left: 40px;
+        font-size: 18px;
+        line-height: 28px;
+        &::before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: url(../img/crm-system/rectangle.svg);
+            width: 10px;
+            height: 10px;
+        }
+    }
+    &--footer {
+        position: relative;
+        z-index: 10;
+        color: $light_text;
+        max-width: 60%;
+        & .subtitle__title {
+            white-space: nowrap;
+        }
+    }
+}
